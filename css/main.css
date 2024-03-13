@@ -1,0 +1,84 @@
+
+img {
+  width: 600px;
+}
+
+
+.swiper {
+  background-color: aqua;
+  height: 600px;
+  margin: 10px;
+}
+
+.swiper-wrapper {
+  background-color: rgb(98, 255, 0);
+  height: 560px;
+  margin: 10px;
+}
+
+.swiper-slide {
+  background-color: rgb(217, 255, 0);
+  height: 500px;
+  margin: 10px;
+} 
+
+
+body {
+      font-family: Quicksand, sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  background: #0cbe9b;
+}
+header h1 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 400%;
+    font-weight: lighter;
+    color: black;
+}
+header {
+  display: flex;
+  align-items: center;
+  background: #0cbe9b
+}
+header h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 400%;
+    font-weight: lighter;
+    color: black;
+}
+nav {
+  background-color: #0a85d8;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  display: flex; /* Display the children of this element as flexible boxes*/
+  align-items: center; /* Align child flexible boxes in the vertical center*/
+}
+nav p {
+  text-align: center;
+  flex-basis:: 100px; /* Give each paragraph the same basic width */
+  flex-grow 1; /* Allow the paragraphs to grow evenly to fill up the parent nav element */
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover{
+  color:red
+}
+h1, h2 {
+    color: #475cc9
+  font-family: McLaren, cursive;
+}
+.center {
+    text-align: center;
+}
+.wrap {
+    float:right
+}
+.caption {
+    font-style:italic;
+    font-size: small; 
+}
