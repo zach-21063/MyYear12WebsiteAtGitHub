@@ -1,5 +1,7 @@
 // new-Swiper("#swiper-1")
 
-new Swiper("#swiper-1",
-    effect: "fade"
+new Swiper("#swiper-1", {
+  effect: "fade"
+}
+    
 )
